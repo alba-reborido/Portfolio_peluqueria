@@ -34,7 +34,7 @@ escena.add(luzDireccional);
 
 //Textura do cilindro
 const cargadorTextura = new THREE.TextureLoader();
-const textura = cargadorTextura.load('/images/texturaThree.jpg');
+const textura = cargadorTextura.load('./images/texturaThree.jpg');
 
 textura.wrapS = THREE.RepeatWrapping;
 textura.wrapT = THREE.RepeatWrapping;
